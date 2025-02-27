@@ -1,0 +1,139 @@
+@font-face {
+    font-family: '29lt bukra bold';
+    src: url(fonts/29ltbukrabold.ttf);
+}
+@font-face {
+    font-family: '29lt bukra regular';
+    src: url(fonts/29ltbukraregular.ttf);
+}
+
+*{
+    direction: rtl;
+    font-family: '29lt bukra regular';
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: background-color 0.25s ease, border 0.25s ease, width 0.5s ease;
+    text-align: center;
+}
+
+h1{
+    font-family: '29lt bukra bold';
+    font-size: 1.4rem;
+    margin: 1.5rem;
+}
+#aboutH1{
+    margin: 3rem;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+a{
+    padding: 1.5rem 2rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+a:hover{
+    padding: -0.25rem;
+    background-color: rgb(70, 74, 95);
+}
+
+
+span{
+    color: rgb(124, 124, 209);
+    font-family: '29lt bukra bold';
+    text-align: center;
+}
+
+hr{
+    height: 0.3rem;
+    background-color: rgb(62, 65, 83);
+    border: 0;
+}
+
+
+body {
+    background-color: rgb(39, 43, 62);
+}
+
+div{
+    margin: 3rem;
+}
+
+ul {
+    background-color: rgb(51, 55, 75);
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(51, 55, 75);
+}
+
+
+
+
+/* 
+*{
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma;
+    font-family: '29lt bukra regular';
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(51, 62, 75);
+}
+
+button{
+    background-color: rgb(86, 112, 143);
+    border-color: rgb(68, 89, 114);
+    border: none;
+    border-radius: 3px;
+    padding: 30px;
+    margin: 30px 50px;
+}
+
+ul{
+    width: 100%;
+    background-color: rgb(59, 72, 87);
+}
+
+li{
+    padding: 30px 40px;
+    display: inline-block;
+    background-color: rgb(59, 72, 87);
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgb(35, 44, 55);
+
+}
+h1{
+    font-family: '29lt bukra bold', Tahoma;
+    font-size: 60px;
+    padding: 100px 0 60px 0;
+    text-align: center;
+    
+}
+h2{
+    font-family: '29lt bukra bold', Tahoma;
+    font-size: 40px;
+    padding: 70px 0 40px 0;
+    text-align: center;
+    
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 130px;
+} */
